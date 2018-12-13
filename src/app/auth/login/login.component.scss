@@ -1,0 +1,35 @@
+.login{
+    height: 100vh;
+    background-color: red;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.formbg{
+    background-color: antiquewhite;
+    box-shadow: 5px solid #fff;
+    padding: 2.375rem ;
+    width: 25rem;
+    box-shadow: 1px 1px 3px 0px black;
+    .myform-control{
+        display: block;
+        width: 100%;
+        height: calc(3.25rem + 3px);
+        padding: 0.375rem 1rem 0.75rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #d1d2d3;
+        background-clip: padding-box;
+        border: 1px solid transparent;
+        border-radius: 0.15rem;
+        transition: border-color 0.15s ea;
+       
+    }
+    .mybtn{
+        background-color: red;
+    }
+}
