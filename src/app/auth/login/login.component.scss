@@ -25,11 +25,14 @@
         background-color: #d1d2d3;
         background-clip: padding-box;
         border: 1px solid transparent;
-        border-radius: 0.15rem;
-        transition: border-color 0.15s ea;
-       
+        border-radius: 0.05rem;
+        
     }
     .mybtn{
         background-color: red;
     }
+}
+input.ng-touched{
+    border: 3px solid yellow;
+    // transition: border-color 0.15s ease-in-out;
 }

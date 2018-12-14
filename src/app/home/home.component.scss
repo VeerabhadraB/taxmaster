@@ -1,0 +1,20 @@
+$bgcolor:red;
+@mixin myshadow_box($color) {
+    box-shadow: 0px 0px 3px 0px color;
+    padding: 15px;
+}
+.homebg{
+$bgcolor:red;
+    background-color: $bgcolor;
+    height: 100vh;
+    @include myshadow_box(black);
+    .home_content_box{
+        background-color: #fff;
+        @include myshadow_box(black);
+        .content_menu{
+            background-color: rgb(173, 169, 169);
+            @include myshadow_box(black);
+        }
+        
+    }
+}

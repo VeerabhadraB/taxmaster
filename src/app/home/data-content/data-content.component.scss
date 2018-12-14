@@ -1,0 +1,21 @@
+$bgcolor:red;
+@mixin myshadow_box($color) {
+    box-shadow: 0px 0px 1px 0px $color;
+    padding: 5px;
+}
+.badges{
+    background-color: red;
+    @include myshadow_box(black);
+    color:#fff;
+    font-weight: bold;
+    border-radius: 0%;
+}
+
+.badge_content{
+    padding: 10px 5px;
+    &.badge_margin{
+        border-right: 1px solid black;
+        margin-right: 5px;
+        padding: 0px 5px;
+    }
+}
